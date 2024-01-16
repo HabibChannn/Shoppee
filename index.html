@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas | Habib Awaludin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .Ay{
+            width: 100%;
+            height: 500px;
+
+            background-color: aqua;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 10px;
+            margin: 0px auto 0px auto;
+        }
+        .Ay >.first{
+            width: 40%;
+            height: 200px;
+
+            background-color: rgb(255, 0, 0);
+        }
+        .Ay >.second{
+            width: 40%;
+            height: 300px;
+
+            background-color: pink;
+        }
+    </style>
+    <script>
+        function hey() {
+            alert("hello")
+        }
+    </script>
+</head>
+<body>
+    <h1>My Review Page</h1>
+    <h2>This is subtitle</h2>
+    <div class="Ay">
+        <div class="first">div 1</div>
+        <div class="second" id="second-box">
+            <button onclick="hey()">button 1</button>
+            <button>button 2</button>
+            <button>button 3</button>
+        </div>
+    </div>
+</body>
+</html>
