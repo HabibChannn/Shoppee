@@ -1,0 +1,104 @@
+.banner {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.floating{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+.left-banner {
+    margin-right: 5px;
+}
+
+.rolling-banner {
+    width: 815px;
+    border-radius: 2px;
+}
+
+.right-banner > img {
+    width: 400px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.bottom-section {
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+}
+
+.bottom-section > li {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-section > li > img {
+    width: 48px;
+    margin-bottom: 6px;
+    transition: width 0.3s; /* Menambahkan efek transisi */
+}
+
+/* Menyesuaikan ukuran gambar pada hover */
+.bottom-section > li:hover > img {
+    width: 49px; /* Sesuaikan dengan ukuran yang diinginkan */
+    margin-bottom: 6px;
+}
+
+.bottom-section > li:hover > span {
+    margin-bottom: auto;
+}
+
+.banner-image {
+    align-self: center;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Memperbaiki selector untuk elemen 'image' */
+.banner-image img {
+    width: 75%;
+    height: 100%;
+}
+
+.swiper {
+    width: 815px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: none;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.swiper:hover > .swiper-button-prev,
+.swiper:hover > .swiper-button-next {
+    display: flex;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
