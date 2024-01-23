@@ -52,6 +52,7 @@
     height: 35px;
     border: none;
     padding: 0 5px;
+    padding-left: 10px;
 }
 .search-box > button{
     background: linear-gradient(-180deg,#f53d2d,#f63);
